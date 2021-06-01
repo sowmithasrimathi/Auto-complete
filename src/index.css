@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: contents;
+}
+
+ul {
+  list-style: none;
+}
+
+.Card {
+  border: red 1px solid;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+::placeholder {
+  color: rgb(6, 229, 245);
+  font: xx-large;
+}
+
+input {
+  height: 30px;
+  width: 350px;
+  text-align: -webkit-center;
+  background-color: salmon;
+}
+
+#Result {
+  position: relative;
+  top: 10rem;
+  z-index: 0;
+  text-align: center;
+  font-size: large;
+  border: 1px ridge transparent;
+  background: rgb(244, 248, 1);
+  padding: 30px;
+  margin-left: 20px;
+  border-radius: 14%;
+  margin-right: 20px;
+}
+
+#Full {
+  border: 1px ridge;
+  height: 650px;
+  width: 486px;
+  background: #4a03cf6b;
+  border-radius: 5%;
+}
+
+#Container {
+  padding-top: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  left: 600px;
+}
+
+#Box {
+  border: 1px #f7059a solid;
+  height: 550px;
+  overflow: scroll;
+  width: 282px;
+  text-align: -webkit-center;
+  position: absolute;
+  padding-right: 74px;
+  border-top-color: transparent;
+  margin-top: 35px;
+  background: white;
+}
